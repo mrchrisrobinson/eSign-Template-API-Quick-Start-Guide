@@ -42,20 +42,22 @@ Use eSign Genie's Graphical User Interface (GUI) to auto generate the API code t
 
 ## 1) Use eSign Genie’s web based GUI to auto-generate an API Request <a name="use"></a>
 
-> Here is an in-depth article on creating a template via our GUI interface. [Template Article](https://www.esigngenie.com/help-center/howto/create-reusable-pdf-document-templates){:target="_blank"}
+> Here is an in-depth article on creating a template via our GUI interface. [Template Article](https://www.esigngenie.com/help-center/howto/create-reusable-pdf-document-templates)
 
-**Important**: You will need to have a [free eSign Genie Sandbox](./CreateSandboxEsignAPIGuide.md){:target="_blank"} (Test) API account active.
+**Important**: You will need to have a [free eSign Genie Sandbox](./CreateSandboxEsignAPIGuide.md) (Test) API account active.
 
 ### Upload a PDF to eSign Genie <a name="upload-a-pdf-to-esign-genie"></a>
 
- > Our Automatic API Code Generation works with eSign Genie’s [Template Feature](https://www.esigngenie.com/help-center/howto/create-reusable-pdf-document-templates){:target="_blank"}
+ > Our Automatic API Code Generation works with eSign Genie’s [Template Feature](https://www.esigngenie.com/help-center/howto/create-reusable-pdf-document-templates)
 
-1. Log into your [eSign Genie account](https://www.esigngenie.com/esign/){:target="_blank"}
-2. Go to your eSign Genie [Template](https://www.esigngenie.com/esign/listTemplates){:target="_blank"} area
+1. Log into your [eSign Genie account](https://www.esigngenie.com/esign/)
+2. Go to your eSign Genie [Template](https://www.esigngenie.com/esign/listTemplates) area
 3. Click on the “+Create a New Template” button
 4. Upload the PDF file that you want to transform into a legally binding electronic document
 
-> [Here is a sample PDF](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/eSign+Genie+Example.pdf){:target="_blank"}
+> [Here is a sample PDF](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/eSign+Genie+Example.pdf)
+
+![Upload a PDF to eSign Genie](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/UploadPDFtoEsignGenie.gif)
 
 ### Drag and Drop form fields onto the PDF<a name="drag-and-drop-form-fields-onto-the-pdf"></a>
 
