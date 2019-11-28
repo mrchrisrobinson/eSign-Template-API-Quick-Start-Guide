@@ -55,8 +55,9 @@ Use eSign Genie's Graphical User Interface (GUI) to auto generate the API code t
 3. Click on the “+Create a New Template” button
 4. Upload the PDF file that you want to transform into a legally binding electronic document
 
-> [Here is a sample PDF](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/eSign+Genie+Example.pdf)
+> Here is a sample PDF you can [download](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/eSign+Genie+Example.pdf)
 
+_GIF of "Upload a PDF to eSign Genie" Steps 1 - 4_
 ![Upload a PDF to eSign Genie](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/UploadPDFtoEsignGenie.gif)
 
 ### Drag and Drop form fields onto the PDF<a name="drag-and-drop-form-fields-onto-the-pdf"></a>
@@ -64,9 +65,7 @@ Use eSign Genie's Graphical User Interface (GUI) to auto generate the API code t
 On the left side of the screen are a list of possible fields to Drag and Drop onto the PDF. Drag and Drop the following fields:
 
     1. Signature Field - Auto-populates
-    2. Signer Name Field - Auto-populates
-    3. Date Signed Field - Auto-populates
-    4. Text Field - Requires metadata
+    2. Text Field - Requires metadata
 
 Our Drag and Drop fields contain their own metadata such as:
 
@@ -88,7 +87,9 @@ You can also easily add your own custom metadata:
 
 ### Add metadata to the fields<a name="add-metadata-to-the-fields"></a>
 
-Click on the **Text Field** that you Dragged and Dropped onto the PDF in the previous step. You will notice a **Properties** pane open up on the right. Here you can easily add meta data to the field. Make sure that you give the Text Field a **Field Name**. We will populate the value in a future step.
+1. Click on the **Text Field** that you Dragged and Dropped onto the PDF in the previous step. 
+2. You will notice a **Properties** pane open up on the right. Here you can easily add meta data to the field. 
+3. Make sure that you give the Text Field a **Field Name**. We will populate the value in a future step.
 
 ### Auto-generate API code<a name="#auto-generate-api-code"></a>
 
