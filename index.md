@@ -95,7 +95,7 @@ _GIF of Dragging and Dropping form fields onto the PDF_
 3. Make sure that you give the Text Field a **Field Name**. We will populate the value in a future step.
 
 _GIF of Adding Metadata to the fields_
-
+![Add Metadata to the fields](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/AddMetadataToTheFields.gif)
 
 ### Auto-generate API Code<a name="#auto-generate-api-code"></a>
 
