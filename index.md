@@ -85,13 +85,26 @@ You can also easily add your own custom metadata:
 - Font Size
 - Font Color
 
+_GIF of Dragging and Dropping form fields onto the PDF_
+![Drag and Drop form fields onto the PDF](https://s3-us-west-1.amazonaws.com/esigngenie.info/PublicAssets/DragAndDropFormFieldsOntoThePDF.gif)
+
 ### Add metadata to the fields<a name="add-metadata-to-the-fields"></a>
 
 1. Click on the **Text Field** that you Dragged and Dropped onto the PDF in the previous step. 
-2. You will notice a **Properties** pane open up on the right. Here you can easily add meta data to the field. 
+2. You will notice a **Properties** pane open up on the right. Here you can easily add meta data to the field.
 3. Make sure that you give the Text Field a **Field Name**. We will populate the value in a future step.
 
-### Auto-generate API code<a name="#auto-generate-api-code"></a>
+_GIF of Adding Metadata to the fields_
+
+
+### Auto-generate API Code<a name="#auto-generate-api-code"></a>
+
+1. Go to your eSign Genie [Template](https://www.esigngenie.com/esign/listTemplates) area
+2. Select the Template
+3. Click "</> Generate API Code"
+
+_GIF of Auto-Generating API Code_
+
 
 ## 2. Understand the Generated Code<a name="#understand-the-generated-code"></a>
 
