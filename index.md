@@ -121,8 +121,7 @@ curl_setopt_array($curl, array(
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  //Here is your API client id key and secret key
-  CURLOPT_POSTFIELDS => "grant_type=client_credentials&client_id=YOUR_CLIENT_ID_API_KEY&client_secret=YOUR_SECRET_API_KEY&scope=read-write",
+  CURLOPT_POSTFIELDS => "grant_type=client_credentials&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&scope=read-write",
 
   CURLOPT_HTTPHEADER => array(
 	"content-type: application/x-www-form-urlencoded"
@@ -133,8 +132,6 @@ $response = curl_exec($curl);
 curl_close($curl);
 
 $data_string = json_decode($response);
-
-//Stores the access token to be used for the request.
 $access_token = $data_string->access_token;
 
 
@@ -144,18 +141,12 @@ curl_setopt_array($curl, array(
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  //request JSON body begins below with {
   CURLOPT_POSTFIELDS => '{
 	"folderName":"folder name",
-	"templateIds":[49475],
+	"templateIds":[119333],
 	"fields":
 		{
-  			"Comments":"TEST_VALUE",
-			"Start Date":"TEST_VALUE",
-			"Date Signed":"TEST_VALUE",
-			"Yes":"false",
-			"No":"false",
-			"Signer Name":"TEST_VALUE"
+  			"Comments":"TEST_VALUE"
 		},
 	"parties":[
 		{
@@ -201,7 +192,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "POST",
 
   //Here is your API client key and secret key
-  CURLOPT_POSTFIELDS => "grant_type=client_credentials&client_id=4420a1eb12614b8d89afadb284935e9b&client_secret=d4a963d0b72a419aa1d0b63481cd13ea&scope=read-write",
+  CURLOPT_POSTFIELDS => "grant_type=client_credentials&client_id=CLIENT_ID&client_secret=CLIENT_SECRET&scope=read-write",
 
   CURLOPT_HTTPHEADER => array(
 	"content-type: application/x-www-form-urlencoded"
@@ -232,33 +223,28 @@ $access_token = $data_string->access_token;
 ```php
 //request JSON body begins below with {
 {
-	"folderName":"folder name",
-	"templateIds":[49475],
-	"fields":
-		{
-  			"Comments":"TEST_VALUE",
-			"Start Date":"TEST_VALUE",
-			"Date Signed":"TEST_VALUE",
-			"Yes":"false",
-			"No":"false",
-			"Signer Name":"TEST_VALUE"
-		},
-	"parties":[
-		{
-			"firstName":"party_1_firstname",
-			"lastName":"party_1_lastname",
-			"emailId":"party_1_emailId",
-			"permission":"FILL_FIELDS_AND_SIGN",
-			"sequence":1
-		}
-	],
-	"signInSequence":false,
-	"createEmbeddedSigningSession":true,
-	"createEmbeddedSigningSessionForAllParties":true,
-	"signSuccessUrl":"",
-	"signDeclineUrl":"",
-	"themeColor":"#0066CB"
-	}
+  "folderName":"folder name",
+  "templateIds":[119333],
+  "fields":
+    {
+      "Comments":"TEST_VALUE"
+    },
+  "parties":[
+    {
+      "firstName":"party_1_firstname",
+      "lastName":"party_1_lastname",
+      "emailId":"party_1_emailId",
+      "permission":"FILL_FIELDS_AND_SIGN",
+      "sequence":1
+    }
+  ],
+  "signInSequence":false,
+  "createEmbeddedSigningSession":true,
+  "createEmbeddedSigningSessionForAllParties":true,
+  "signSuccessUrl":"",
+  "signDeclineUrl":"",
+  "themeColor":"#0066CB"
+}
 ```
 
 ### 
