@@ -3,7 +3,8 @@
 ## Create a Document from a Template: Using eSign Genie's Template API
 
 Use eSign Genie's Graphical User Interface (GUI) to auto generate the API code to needed create a legally binding document.
-TL: DR: Check out the Collection in Postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6291c9cec8adbd3cbbad)
+
+> TL: DR: Check out the Collection in Postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6291c9cec8adbd3cbbad)
 
 **Goal**: Gain an understanding of how to easily embed legally binding eSignatures into your website or application
 
