@@ -213,6 +213,9 @@ $access_token = $data_string->access_token;
 
 
 > The body of the request can be copy & pasted into Postman.
+> Below is a Postman Collection you can use:
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6291c9cec8adbd3cbbad)
+
 
 **Prepopulate Field Values:** You can change the values of the fields if you would like them prepopulated with a value. The values are all TEST_VALUE by default.
 
@@ -249,4 +252,4 @@ $access_token = $data_string->access_token;
 
 ### 
 
-> Written with [StackEdit](https://stackedit.io/).
+
