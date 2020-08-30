@@ -212,8 +212,7 @@ $access_token = $data_string->access_token;
 <a name="#request-body"></a>
 
 
-> The body of the request can be copy & pasted into Postman.
-> Below is a Postman Collection you can use:
+> The body of the request can be copy & pasted into Postman. Check it out here: 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6291c9cec8adbd3cbbad)
 
 
